@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Sulphur+Point:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Sulphur+Point:wght@300;400;700&display=swap");
+body {
+  width: 100%;
+}
+
+.sticky {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  height: 7rem;
+  width: 100%;
+  z-index: 99;
+  box-shadow: 0 0px 10px rgb(17 17 17 / 20%);
+  transition: background 0.5s;
+}
+
+h1 {
+  font-family: "Sulphur Point", sans-serif;
+}
+
+.header-body {
+  position: relative;
+  padding-bottom: 5rem;
+}
+.header-head {
+  background-image: url("http://my-templates.online/joolie/img/promo-slider/BGimg.jpg");
+  width: 100%;
+}
+.promo-slider {
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+  width: 80%;
+  mix-blend-mode: darken;
+  pointer-events: none;
+}
+.promo-slider > img {
+  width: 100%;
+}
+
+#header1 {
+  font-size: 1.6rem;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.header-top-column {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #555555;
+}
+.header-top-column > a {
+  color: #555555;
+  font-weight: 600;
+  margin-left: 0.33rem;
+}
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+.header-menu-list > a {
+  /* content: "+"; */
+  display: inline-block;
+  font-size: 1.3rem;
+  color: #555555;
+}
+
+.header-menu-list > a:hover {
+  color: #ec9dab;
+}
+
+.header-menu {
+  width: 20%;
+}
+.header1 {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  margin-right: 2rem;
+}
+.header-action {
+  width: 20%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.socialMedia {
+  width: 2rem;
+  height: 2rem;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.socialMedia img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: top;
+}
+.header-content-items {
+  padding-top: 5rem;
+}
+.header-content {
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header-content-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 170%;
+  text-transform: uppercase;
+  color: #ec9dab;
+  margin-bottom: 1.07rem;
+}
+.header-content-title {
+  font-family: "Lato", sans-serif;
+  font-size: 5rem;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: #111111;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  margin-bottom: 0.87rem;
+}
+.header-content-text {
+  font-size: 1.3rem;
+  line-height: 170%;
+  color: #555555;
+  margin-bottom: 2.5em;
+}
+.header-content-text > strong {
+  font-size: 1.2em;
+  font-weight: bolder;
+  margin-bottom: 2.5rem;
+}
+.products-category {
+  margin: 40px 0px 20px;
+}
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.product-category-head {
+  margin-bottom: 4rem;
+  text-align: center;
+  max-width: 31rem;
+  margin: 0 auto 30px;
+}
+.head-subtitle {
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 170%;
+  text-transform: uppercase;
+  color: #ec9dab;
+}
+.head-subtitle > span {
+  margin: 0 0.57em;
+  width: 2.14em;
+  display: inline-block;
+}
+.head-title {
+  margin-bottom: 0.35rem;
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: #111111;
+}
+.head-text {
+  font-size: 1rem;
+  line-height: 170%;
+  color: #555555;
+}
+.cards-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.cards-container > a {
+  width: 23%;
+}
+.cards-invincible > img {
+  width: 100%;
+}
+.cards {
+  position: relative;
+  text-align: center;
+  color: #ec9dab;
+}
+.card-content {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card-text {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 170%;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 2.85em;
+}
+.cards-invincible::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18%;
+  z-index: 2;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(white),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: -o-linear-gradient(top, white 0%, rgba(255, 255, 255, 0) 100%);
+  background: linear-gradient(to bottom, white 0%, rgba(255, 255, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+#cards-2 {
+  margin-top: 2rem;
+}
+#cards-4 {
+  margin-top: 2rem;
+}
+.mostHigh {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.text-body {
+  width: 30%;
+  text-align: left;
+  margin-left: 4rem;
+}
+.video-body {
+  width: 45%;
+  height: 100%;
+}
+.video-body > video {
+  height: 900px;
+  height: 400px;
+}
+.text-subtitle {
+  font-weight: 600;
+  font-size: 1.3rem;
+  /* line-height: 170%; */
+  text-transform: uppercase;
+  color: #ec9dab;
+  margin-bottom: 0.67rem;
+}
+.text-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  /* line-height: 110%; */
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 1.36rem;
+}
+
+.text-subtitle2 {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.5rem;
+  /* line-height: 130%; */
+  color: #555555;
+  margin-bottom: 1.36em;
+}
+.text-text {
+  font-size: 1.2rem;
+  /* line-height: 170%; */
+  color: #555555;
+}
+.icons-section {
+  margin-top: 10rem;
+  margin-bottom: 9rem;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.icon-body {
+  text-align: left;
+  width: 20%;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.icon {
+  margin-bottom: 0.67rem;
+}
+.icon-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.6rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 1rem;
+}
+.icon-text {
+  font-size: 1.2rem;
+  /* line-height: 170%; */
+  color: #555555;
+}
+.timer {
+  background-image: url(http://my-templates.online/joolie/img/get-your-gift-block/bg.jpg);
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  margin-bottom: 5rem;
+}
+.timer-body {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+}
+.timer-body-real {
+  width: 40%;
+}
+.timer-body-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  /* line-height: 170%; */
+  text-transform: uppercase;
+  color: #ec9dab;
+  margin-bottom: 1rem;
+}
+.timer-body-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-size: 5rem;
+  /* line-height: 110%; */
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 2.36rem;
+}
+.timer-body-timer {
+  display: flex;
+}
+.time-block-item {
+  display: block;
+  -webkit-box-direction: normal;
+  text-align: center;
+  margin-right: 2rem;
+}
+.timer-body-count {
+  font-weight: 500;
+  font-size: 2rem;
+  /* line-height: 100%; */
+  color: #111111;
+  display: flex;
+  flex-direction: column;
+
+  /* min-width: 45px; */
+}
+.timer-body-units {
+  font-size: 1rem;
+  /* line-height: 170%; */
+  color: #555555;
+}
+.custom-happiness {
+  width: 100%;
+}
+.custom-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.custom-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  /* line-height: 170%; */
+  text-transform: uppercase;
+  color: #ec9dab;
+}
+.custom-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  /* line-height: 110%; */
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 2.7rem;
+}
+.custom-info-img {
+  margin-bottom: 1.6rem;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 2rem;
+}
+.custom-info-text {
+  font-weight: 500;
+  font-size: 1.4rem;
+  /* line-height: 170%; */
+  color: #111111;
+  margin-bottom: 1.43em;
+}
+.custom-text {
+  display: flex;
+  font-size: 1.3rem;
+  align-items: center;
+  color: #555555;
+  margin-bottom: 2.7rem;
+}
+.custom-text-p {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-size: 1.6rem;
+  color: #555555;
+}
+.custom-pages {
+  width: auto;
+  height: auto;
+  background: transparent;
+  position: relative;
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(17, 17, 17, 0.3);
+  opacity: 1;
+  display: inline-block;
+}
+.page-button {
+  border: none;
+  background-color: white;
+  color: rgba(17, 17, 17, 0.3);
+}
+.icon-button {
+  border: none;
+  background-color: white;
+  color: #555555;
+  font-size: 1rem;
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.instagram-block {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.instagram-block-subtitle {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 170%;
+  text-transform: uppercase;
+  color: #ec9dab;
+  margin-bottom: 0.67rem;
+}
+.instagram-block-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 110%;
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 2rem;
+}
+.instagram-block-text {
+  font-size: 1.3rem;
+  line-height: 170%;
+  color: #555555;
+  margin-bottom: auto;
+  margin-bottom: 2rem;
+}
+.instagram-follow {
+  align-items: center;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 170%;
+  text-transform: uppercase;
+  color: #111111;
+}
+.instagram-follow > a {
+  color: #111111;
+}
+.instagram-follow :hover {
+  color: #ec9dab;
+}
+.footer-body {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-image: url("http://my-templates.online/joolie/img/footer/bg.png");
+  display: flex;
+  justify-content: space-evenly;
+}
+.newsletter-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.6rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #111111;
+}
+.newsletter-text {
+  font-size: 1.2rem;
+  line-height: 170%;
+  color: #555555;
+}
+.newsletter-form {
+  display: flex;
+}
+.newsletter-input {
+  width: 25rem;
+  height: 3.5rem;
+  background: local;
+  border-top-width: 0rem;
+  border-left-width: 0rem;
+  border-right-width: 0rem;
+  border-bottom-width: 0.1rem;
+  border-bottom-color: rgba(85, 85, 85, 0.2);
+  text-align: left;
+}
+.newsletter-button {
+  background: local;
+  border-top-width: 0rem;
+  border-left-width: 0rem;
+  border-right-width: 0rem;
+  border-bottom-width: 0.1rem;
+  border-bottom-color: rgba(85, 85, 85, 0.2);
+}
+.newsletter-form > button:hover {
+  background-color: rgba(85, 85, 85, 0.2);
+}
+.hit-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 1rem;
+}
+.hit-phone {
+  margin-bottom: 1rem;
+}
+.hit-phone > a {
+  font-size: 1.2rem;
+  line-height: 170%;
+  color: #444444;
+  font-weight: 600;
+}
+.hit-mail {
+  font-size: 1.2rem;
+  color: #555555;
+  margin-bottom: 1rem;
+}
+.hit-address {
+  font-size: 1.2rem;
+  color: #555555;
+}
+.findus-title {
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 1.4rem;
+  line-height: 120%;
+  text-transform: capitalize;
+  color: #111111;
+  margin-bottom: 1rem;
+}
+.findus-items {
+  font-size: 1.2rem;
+  color: #444444;
+}
