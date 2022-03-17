@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="proje.css" />
     <title>Paris-Berlin</title>
   </head>
-  <body><div class="promo-slider" >
+  <body>
+    <div class="promo-slider" >
         <img src="flowers2.png" alt="flowers">
      </div>
   <header class="header-head">
@@ -16,13 +17,19 @@
  
       
       <div class="header-top">
-        <div class="header-top-column">
+        <div class="header-top-column1">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </div>
         <div class="header-top-column">
           Call us : <a href= "05079773901">05079773901</a>
         </div>
       </div>
+      <div class="take-it">
+
+     
+       <div class="header1">
+          <h1 id="header1">Paris Berlin Düğün Salonu</h1>
+        </div>
       <div class="header-main">
         <nav class="header-menu">
           <div class="header-menu-list">
@@ -32,9 +39,7 @@
             <a href="#footerBody">Pages</a>
           </div>
         </nav>
-        <div class="header1">
-          <h1 id="header1">Paris Berlin Düğün Salonu</h1>
-        </div>
+       
         <div class="header-action" >
           <a href="https://www.instagram.com">
             <span class="socialMedia">
@@ -64,7 +69,7 @@
         </div>
       </div>
 </div>
-
+ </div>
  <div class="header-body">
         <div class="header-content-items">
           <div class="header-content">
@@ -85,7 +90,6 @@
     
     </header>
     <section class="products-category" id="productsCategory">
-     
       <div class="container">
         <div class="product-categpry-head">
           <div class="head-subtitle">
@@ -145,10 +149,29 @@
      </div>
    </a>
         
-        
+    
         
       </div>
-    </section>
+      <div class="responsivePrivate" >
+        <div class="cards-container2" >
+        <div class="cards-invincible2" >
+          <img id="cardRes" src="" alt="" />
+        </div>
+        <div class="card-content2">
+          <div class="card-icon2">
+            <img src="icon-circles.svg" alt="" />
+          </div>
+          <h5 id="cardText2" class="card-text2">Aksesuar</h5>
+        </div>
+      </div>
+      <div class="buttons2" >
+        <button onclick="card1()" id="button2-1" class="page-button2">1</button>
+        <button onclick="card2()" id="button2-2" class="page-button2">2</button>
+        <button onclick="card3()" id="button2-3" class="page-button2">3</button>
+      </div>
+      </div>
+    </section>       
+   
    
     <section class="video-text-container" id="videoTextContainer">
       <div class="mostHigh">
@@ -166,7 +189,7 @@
         </div>
       </div>
       <div class="video-body">
-        <video style="width:100%; " controls poster="bg.jpg">
+        <video controls poster="bg.jpg">
           <source  src="videoForTest.mp4">
         </video>
       </div>
@@ -214,7 +237,7 @@
     </section>
    <section class="timer">
      <div class="timer-body">
-       <div></div>
+       
        <div class="timer-body-real">
         <div class="timer-body-subtitle">
           <span><img src="icon-circles.svg" alt=""></span>
@@ -259,7 +282,7 @@
           </div>
         </div>
         <div class="custom-text">
-          <div>
+          <div class="icons1" >
             <button id="prevButton" class="icon-button" onclick="prevText()">
                <span><img src="Arrow-left.svg" alt=""></span>
                
@@ -269,7 +292,7 @@
           </div>
         <div id="customTextP" class="custom-text-p">
         </div>
-        <div>
+        <div class="icons1" >
           <button id="nextButton" class="icon-button"  onclick="nextText()">
             <span><img src="Arrow-right.svg" alt=""></span>
              Next
@@ -282,6 +305,25 @@
           <button id="button2" class="page-button" onclick="textChange2()">2</button>
           <button id="button3" class="page-button" onclick="textChange3()">3</button>
         </div>
+        <div class="icons2">
+          <div class="icon-type">
+             <button id="prevButton" class="icon-button2" onclick="prevText()">
+            
+             <span><img src="Arrow-left.svg" alt=""></span>
+            Prev 
+        
+         </button>
+          </div>
+         <div>
+           <button id="nextButton" class="icon-button2"  onclick="nextText()">
+          Next
+            <span><img src="Arrow-right.svg" alt=""></span>
+           
+        </button>
+         </div>
+         
+        </div>
+       
       </div>
    </section>
    <section class="instagram-block">
@@ -306,6 +348,9 @@
    </section>
    <footer>
     <div class="footer-body" id="footerBody">
+    
+
+      
       <div class="footer-newsletter">
         <div class="newsletter-title">Newsletter</div>
         <div class="newsletter-text">Don’t miss our significant news and season sales. Subscribe!</div>
@@ -321,17 +366,18 @@
         <div class="hit-address">27 Division St, New York, NY 10002, USA</div>
       </div>
       <div class="findus">
-        <div class="findus-title">Find Us:</div>
-        <div>
+        <div class="findus-title">FIND US:</div>
+        <div style="margin-bottom: 1rem;">
           <a href="" class="findus-items">-Facebook</a>
         </div>
-        <div style="margin-top: 1rem; margin-bottom: 1rem;">
+        <div style="margin-bottom: 1rem;">
          <a href="" class="findus-items">-Instagram</a> 
         </div>
         <div>
           <a href="" class="findus-items">-Twitter</a>
         </div>
       </div>
+   
     </div>
    </footer>
     <script src="/index.js"></script>
